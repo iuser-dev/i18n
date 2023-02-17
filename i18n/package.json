@@ -5,11 +5,14 @@
   "type": "module",
   "dependencies": {
     "@u7/it": "^0.0.7",
+    "@u7/read": "^0.0.6",
+    "@u7/walk": "^0.0.9",
     "@u7/wasm-set": "^0.0.9",
+    "@u7/write": "^0.0.8",
     "@u7/xxhash3-wasm": "^0.0.15",
     "@vitalets/google-translate-api": "^9.1.0",
     "opencc-js": "^1.0.5",
-    "utax": "^0.0.40",
+    "utax": "^0.0.41",
     "yargs": "^17.7.0"
   },
   "files": [

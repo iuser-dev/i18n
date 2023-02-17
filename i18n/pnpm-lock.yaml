@@ -3,21 +3,27 @@ lockfileVersion: 5.4
 specifiers:
   '@u7/it': ^0.0.7
   '@u7/node-loader': ^0.0.48
+  '@u7/read': ^0.0.6
+  '@u7/walk': ^0.0.9
   '@u7/wasm-set': ^0.0.9
+  '@u7/write': ^0.0.8
   '@u7/xxhash3-wasm': ^0.0.15
   '@vitalets/google-translate-api': ^9.1.0
   coffee_plus: ^0.0.55
   opencc-js: ^1.0.5
-  utax: ^0.0.40
+  utax: ^0.0.41
   yargs: ^17.7.0
 
 dependencies:
   '@u7/it': 0.0.7
+  '@u7/read': 0.0.6
+  '@u7/walk': 0.0.9
   '@u7/wasm-set': 0.0.9
+  '@u7/write': 0.0.8
   '@u7/xxhash3-wasm': 0.0.15
   '@vitalets/google-translate-api': 9.1.0
   opencc-js: 1.0.5
-  utax: 0.0.40
+  utax: 0.0.41
   yargs: 17.7.0
 
 devDependencies:
@@ -50,9 +56,17 @@ packages:
       coffeescript: 2.7.0
     dev: true
 
+  /@u7/read/0.0.6:
+    resolution: {integrity: sha512-j4uIfSfkZDZ+6zupIbpB+6TwIkOb7OsC5gYAsVYpJu0AXCMoS34MpRWaW122hNIK1TqlpJcmufVHp12O2H8KHw==}
+    dev: false
+
   /@u7/walk/0.0.8:
     resolution: {integrity: sha512-4VUVWDvEDNOFQXzeP8uPQ+PStd62cqVM+U85nbyP7DgSTBe2rTN4HDdicEYXHgAMCbZ/mQ1VTcPJWUnFzx5F7Q==}
     dev: true
+
+  /@u7/walk/0.0.9:
+    resolution: {integrity: sha512-HaMQ335AXE6ndXbUbDPb167f48DvilCi5y2dnCLqWBDsO16qPgIZIh/drvgTKiEOgku2AhURqBMG5HWEZETjCA==}
+    dev: false
 
   /@u7/wasm-set/0.0.9:
     resolution: {integrity: sha512-BfyfyQsNM8AnZj2hqA2sL0ryABmDEOuDVH9BEhIMSmkIbBTqWLQLxERRmLHch2dSb0uhbebGcogPIocMlQ2LvQ==}
@@ -60,7 +74,6 @@ packages:
 
   /@u7/write/0.0.8:
     resolution: {integrity: sha512-cas5IbKVQzbZieMFfo4lEJ3tn4wLme40hXHjkgt2EWuqpklbxFu5DI/eR20whM+XLOz3y+NxVuNXy5zXuRqdIw==}
-    dev: true
 
   /@u7/xxhash3-wasm/0.0.15:
     resolution: {integrity: sha512-WTvc40TVoqZ2a5Rbql/3VjuGoLsgFod4XRZ0cLgfTfW3UxVYpOOBDLZtYVbJ4fepZIFiN9c/ay1P8RZ7InILwg==}
@@ -250,8 +263,8 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /utax/0.0.40:
-    resolution: {integrity: sha512-zkaaPyKuXzOgehGuaVSKgW+3ffI4wMPu1P8nLE1eaQnUBJ4DhKKSrL/Jjo5coiUnX9fN+HacLwMDiKomi1Zldw==}
+  /utax/0.0.41:
+    resolution: {integrity: sha512-2gB2Zi3B95vnkfhCe9b93cNLw/36qX+3eVRD7mZY28a87jIQIHZ5LeTPRKWhfDIyx9YieoHKYjPEhzEKWUKWGQ==}
     dev: false
 
   /webidl-conversions/3.0.1:

@@ -1,10 +1,10 @@
 #!/usr/bin/env coffee
 
 > ./transalte.js:Transalte
-  utax/read.js
+  @u7/read.js
   fs > readFileSync existsSync
   @u7/xxhash3-wasm > hash128
-  utax/write.js
+  @u7/write.js
   utax/u8.js > u8eq
   ./j2f.js
 

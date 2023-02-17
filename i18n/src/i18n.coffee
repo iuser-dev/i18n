@@ -2,7 +2,7 @@
 
 > ./lang_li.js
   ./index.js:i18n
-  utax/walk.js > walkRel
+  @u7/walk > walkRel
   fs > writeFileSync mkdirSync readFileSync statSync existsSync
   path > resolve
   yargs/helpers > hideBin

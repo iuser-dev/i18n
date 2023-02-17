@@ -1,8 +1,8 @@
 #!/usr/bin/env coffee
 
-> utax/walk.js > walkRel
-  utax/write.js
-  utax/read.js
+> @u7/walk > walkRel
+  @u7/write.js
+  @u7/read.js
   utax/u8.js > u8eq
   @u7/it > loads dumps
   @u7/wasm-set > BinSet
