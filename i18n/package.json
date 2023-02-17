@@ -1,6 +1,6 @@
 {
   "name": "@u7/i18n",
-  "version": "0.0.60",
+  "version": "0.0.61",
   "repository": "git@github.com:user-tax-dev/i18n.git",
   "type": "module",
   "dependencies": {
