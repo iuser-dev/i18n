@@ -1,0 +1,8 @@
+{
+  "type":"module",
+  "dependencies": {
+    "@iuser/node-loader": "^0.0.46",
+    "coffeescript": "^2.7.0"
+  },
+  "devDependencies": {}
+}

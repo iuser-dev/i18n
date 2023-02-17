@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message Translate
+{
+  optional string src = 1;
+  string to = 2;
+  repeated string li = 3;
+}
+
+message TranslateA
+{
+  repeated string li = 1;
+}
+
+service I18n
+{
+
+  rpc translate(Translate) returns (TranslateA) { };
+}

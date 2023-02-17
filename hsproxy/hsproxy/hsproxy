@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from hsproxy.proxy import main
+from fire import Fire
+
+Fire(main)

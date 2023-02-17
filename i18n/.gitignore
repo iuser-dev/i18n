@@ -1,0 +1,4 @@
+.i18n/
+/test/it/*
+!/test/it/zh/*
+!/test/it/zh.it

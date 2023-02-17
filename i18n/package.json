@@ -1,0 +1,33 @@
+{
+  "name": "@u7/i18n",
+  "version": "0.0.60",
+  "repository": "git@github.com:user-tax-dev/i18n.git",
+  "type": "module",
+  "dependencies": {
+    "@u7/it": "^0.0.7",
+    "@u7/wasm-set": "^0.0.9",
+    "@u7/xxhash3-wasm": "^0.0.15",
+    "@vitalets/google-translate-api": "^9.1.0",
+    "opencc-js": "^1.0.5",
+    "utax": "^0.0.40",
+    "yargs": "^17.7.0"
+  },
+  "files": [
+    "lib/*",
+    "i18n.js"
+  ],
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "bin": {
+    "i18n": "./lib/i18n.js"
+  },
+  "devDependencies": {
+    "@u7/node-loader": "^0.0.48",
+    "coffee_plus": "^0.0.55"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  }
+}
